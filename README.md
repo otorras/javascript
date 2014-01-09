@@ -727,7 +727,7 @@
 
 ## <a name='whitespace'>Whitespace</a>
 
-  - Use soft tabs set to 2 spaces
+  - Use hard tabs
 
     ```javascript
     // bad
@@ -737,12 +737,12 @@
 
     // bad
     function() {
-    ∙var name;
+    ∙∙var name;
     }
 
     // good
     function() {
-    ∙∙var name;
+    ――var name;
     }
     ```
 
